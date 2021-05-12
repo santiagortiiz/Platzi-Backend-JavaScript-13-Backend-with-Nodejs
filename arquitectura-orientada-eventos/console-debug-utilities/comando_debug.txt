@@ -1,0 +1,2 @@
+node --inspect file_name
+abre un puerto en el cual permite debuggear el archivo de interes
