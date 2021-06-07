@@ -1,0 +1,36 @@
+{
+  "name": "movies-api",
+  "version": "1.0.0",
+  "description": "curso backend con nodejs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set DEBUG=app:*&& nodemon index.js",
+    "start": "set NODE_ENV=production&& node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/santiagortiiz/Curso-de-backend-con-nodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "backend"
+  ],
+  "author": "Santiago",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/santiagortiiz/Curso-de-backend-con-nodejs/issues"
+  },
+  "homepage": "https://github.com/santiagortiiz/Curso-de-backend-con-nodejs#readme",
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.9"
+  },
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.0"
+  }
+}
